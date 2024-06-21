@@ -171,7 +171,7 @@
                 </div>
                 <div class="col-sm-8">
                     <p>For any Feedback / Suggestions / Complaints, you may reach out to customer relations team at
-                        service@jssgroupindia.com</p>
+                        service@ms.services98@gmail.com</p>
                 </div>
             </div>
         </div>
