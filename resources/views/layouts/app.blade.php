@@ -20,7 +20,7 @@
     <title>{{ $title ?? 'Security Guard Service Agency in India | Manpower Services' }} | {{ config('app.name') }}
     </title>
 
-    @include('inc.headerLinks')
+    @include('inc.headerlinks')
 
     @yield('head')
 </head>
@@ -33,7 +33,7 @@
 
     @include('inc.footer')
 
-    @include('inc.footerLinks')
+    @include('inc.footerlinks')
 
     @yield('scripts')
 </body>
