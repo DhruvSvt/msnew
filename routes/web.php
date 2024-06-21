@@ -17,4 +17,9 @@ Route::get('/', function () {
     return view('index');
 })->name('home');
 
-Route::view('about-us','about')->name('about');
+Route::view('about-us', 'about')->name('about');
+Route::view('service', 'service')->name('service');
+Route::view('certifications', 'certifications')->name('certifications');
+Route::view('gallery', 'gallery')->name('gallery');
+Route::view('carrier', 'carrier')->name('carrier');
+Route::view('contact-us', 'contact')->name('contact');

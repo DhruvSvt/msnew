@@ -7,67 +7,6 @@
         object-fit: contain;
 
     }
-
-    .gallery-img {
-        cursor: pointer;
-        transition: transform 0.2s;
-    }
-
-    .gallery-img:hover {
-        transform: scale(1.05);
-    }
-
-    #demo {
-        height: 100%;
-        position: relative;
-        overflow: hidden;
-    }
-
-
-    .green {
-        background-color: #6fb936;
-    }
-
-    .thumb {
-        margin-bottom: 30px;
-    }
-
-    .page-top {
-        margin-top: 85px;
-    }
-
-
-    img.zoom {
-        width: 100%;
-        height: 200px;
-        border-radius: 5px;
-        object-fit: cover;
-        -webkit-transition: all .3s ease-in-out;
-        -moz-transition: all .3s ease-in-out;
-        -o-transition: all .3s ease-in-out;
-        -ms-transition: all .3s ease-in-out;
-    }
-
-
-    .transition {
-        -webkit-transform: scale(1.2);
-        -moz-transform: scale(1.2);
-        -o-transform: scale(1.2);
-        transform: scale(1.2);
-    }
-
-    .modal-header {
-
-        border-bottom: none;
-    }
-
-    .modal-title {
-        color: #000;
-    }
-
-    .modal-footer {
-        display: none;
-    }
 </style>
 @endsection
 @section('content')
@@ -136,71 +75,64 @@
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
             <a href="{{ config('app.url') }}/assets/images/c1.jpg" class="fancybox" rel="ligthbox" target="_blank">
                 <img src="{{ config('app.url') }}/assets/images/c1.jpg" class="zoom img-fluid "
-                    style="border:1px solid darkgrey" alt="">
+                    style="border:1px solid darkgrey;margin-bottom:10px;" alt="">
             </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
             <a href="{{ config('app.url') }}/assets/images/c2.jpg" class="fancybox" rel="ligthbox" target="_blank">
                 <img src="{{ config('app.url') }}/assets/images/c2.jpg" class="zoom img-fluid "
-                    style="border:1px solid darkgrey" alt="">
+                    style="border:1px solid darkgrey;margin-bottom:10px;" alt="">
             </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
             <a href="{{ config('app.url') }}/assets/images/c3.jpg" class="fancybox" rel="ligthbox" target="_blank">
                 <img src="{{ config('app.url') }}/assets/images/c3.jpg" class="zoom img-fluid "
-                    style="border:1px solid darkgrey" alt="">
+                    style="border:1px solid darkgrey;margin-bottom:10px;" alt="">
             </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
             <a href="{{ config('app.url') }}/assets/images/c4.jpg" class="fancybox" rel="ligthbox" target="_blank">
                 <img src="{{ config('app.url') }}/assets/images/c4.jpg" class="zoom img-fluid "
-                    style="border:1px solid darkgrey" alt="">
+                    style="border:1px solid darkgrey;margin-bottom:10px;" alt="">
             </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
             <a href="{{ config('app.url') }}/assets/images/c5.jpg" class="fancybox" rel="ligthbox" target="_blank">
                 <img src="{{ config('app.url') }}/assets/images/c5.jpg" class="zoom img-fluid "
-                    style="border:1px solid darkgrey" alt="">
+                    style="border:1px solid darkgrey;margin-bottom:10px;" alt="">
             </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
             <a href="{{ config('app.url') }}/assets/images/c6.jpg" class="fancybox" rel="ligthbox" target="_blank">
                 <img src="{{ config('app.url') }}/assets/images/c6.jpg" class="zoom img-fluid "
-                    style="border:1px solid darkgrey" alt="">
+                    style="border:1px solid darkgrey;margin-bottom:10px;" alt="">
             </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
             <a href="{{ config('app.url') }}/assets/images/c7.jpg" class="fancybox" rel="ligthbox" target="_blank">
                 <img src="{{ config('app.url') }}/assets/images/c7.jpg" class="zoom img-fluid "
-                    style="border:1px solid darkgrey" alt="">
+                    style="border:1px solid darkgrey;margin-bottom:10px;" alt="">
             </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
             <a href="{{ config('app.url') }}/assets/images/c8.jpg" class="fancybox" rel="ligthbox" target="_blank">
                 <img src="{{ config('app.url') }}/assets/images/c8.jpg" class="zoom img-fluid "
-                    style="border:1px solid darkgrey" alt="">
+                    style="border:1px solid darkgrey;margin-bottom:10px;" alt="">
             </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
             <a href="{{ config('app.url') }}/assets/images/c9.jpg" class="fancybox" rel="ligthbox" target="_blank">
                 <img src="{{ config('app.url') }}/assets/images/c9.jpg" class="zoom img-fluid "
-                    style="border:1px solid darkgrey" alt="">
+                    style="border:1px solid darkgrey;margin-bottom:10px;" alt="">
             </a>
         </div>
         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
             <a href="{{ config('app.url') }}/assets/images/c10.jpg" class="fancybox" rel="ligthbox" target="_blank">
                 <img src="{{ config('app.url') }}/assets/images/c10.jpg" class="zoom img-fluid "
-                    style="border:1px solid darkgrey" alt="">
+                    style="border:1px solid darkgrey;margin-bottom:10px;" alt="">
             </a>
         </div>
-
-
-
     </div>
-
-
-
-
 </div>
 <div class="fullbody aboutBlock" style="padding: 50px 0 20px 0;">
     <div class="fullpage">
@@ -350,5 +282,4 @@
         </div>
     </div>
 </div>
-
 @endsection

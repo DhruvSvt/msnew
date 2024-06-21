@@ -115,7 +115,7 @@
 <div class="fullbody aboutBlock" style="padding: 50px 0 20px 0;">
     <div class="fullpage">
         <div class="txt wow fadeInLeft" style="width:100%;">
-            <h1 class="fullbody">About-Us</h1>
+            <h1 class="fullbody">M.S Services</h1>
 
         </div>
     </div>
@@ -145,6 +145,43 @@
         </div>
     </div>
 </div>
+<div class="fullbody aboutBlock" style="padding: 50px 0 20px 0;">
+    <div class="fullpage">
+        <div class="txt wow fadeInLeft" style="width:100%;">
+            <h1 class="fullbody">Financial Status of M.S Services (in Lakhs)</h1>
+        </div>
+    </div>
+</div>
+<div class="section2 wow fadeInUp" id="s1" style="visibility: visible; animation-name: fadeInUp;">
+    <div class="fullpage">
+        <div class="">
+            <div class="col-sm-6 pull-left">
+                <p>The chart illustrates an impressive growth trajectory for the company over the past decade,
+                    highlighting a significant
+                    increase in profits. Starting from a modest 8.93 lac in 2011-12, the company's revenue has soared to
+                    an outstanding
+                    2530.40 lac in 2020-21. This remarkable growth underscores the company's strategic vision, effective
+                    management, and
+                    dedication to excellence. Each year has seen consistent progress, reflecting the company's ability
+                    to adapt, innovate,
+                    and meet market demands. The substantial rise in profits is a testament to the hard work and
+                    commitment of the entire
+                    team, setting a solid foundation for continued success in the future.
+                </p>
+            </div>
+            <div class="col-sm-5 pull-right">
+                <div class="round-image image-shadow">
+                    <div class="dottedcircle"><img src="{{ config('app.url') }}/assets/images/dots-circle.svg"
+                            alt="Dot Circle"></div>
+                    <div class="rounded-image feature-image image-shadow"><img class="promptimg"
+                            src="{{ config('app.url') }}/assets/images/profitgraph.jpg"
+                            alt="security services provider">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="fullbody aboutLinks" style="background-image: url(images/banner3.png);">
     <ul class="fullbody" id="aboutLinks">
         <li rel="2176d0efddeac65a776fa9a41ea52890.jpg">
@@ -153,7 +190,7 @@
                 <div class="fullbody showonhover">
                     To become a leading and finest provider of property and facility management services. </div>
             </div>
-            <a href="#" class="showonhover">read more <span></span></a>
+            <a href="{{ route('service') }}" class="showonhover">read more <span></span></a>
         </li>
         <li rel="d81ff8666b9c5f97508c846d72011ae1.jpg">
             <div class="content wow zoomIn">
@@ -161,7 +198,7 @@
                 <div class="fullbody showonhover">
                     Throughout our organization, we adhere to the principle of trust, ethics, lawfulness. </div>
             </div>
-            <a href="#" class="showonhover">read more <span></span></a>
+            <a href="{{ route('certifications') }}" class="showonhover">read more <span></span></a>
         </li>
         <li rel="780b57878e354425e862b6c3c695f449.jpg">
             <div class="content wow zoomIn">
@@ -169,7 +206,7 @@
                 <div class="fullbody showonhover">
                     To give our clients complete value for money and peace of mind. </div>
             </div>
-            <a href="#" class="showonhover">read more <span></span></a>
+            <a href="{{ route('contact') }}" class="showonhover">read more <span></span></a>
         </li>
     </ul>
 </div>
@@ -326,7 +363,7 @@
         <h3 class="fullbody">Company Profile</h3>
         <ul class="fullbody">
             <li class="wow zoomIn">
-                <a href="#" class="a">
+                <a href="{{ route('service') }}" class="a">
                     <div class="img fullbody"><img src="{{ config('app.url') }}/assets/images/security.jpeg" alt="">
                     </div>
                     <div class="text fullbody">
@@ -340,7 +377,7 @@
                 </a>
             </li>
             <li class="wow zoomIn">
-                <a href="#" class="a">
+                <a href="{{ route('service') }}" class="a">
                     <div class="img fullbody"><img src="{{ config('app.url') }}/assets/images/house.jpg" alt=""></div>
                     <div class="text fullbody">
                         <h4 class="fullbody"><span>Services</span> House Keeping</h4>
@@ -353,7 +390,7 @@
                 </a>
             </li>
             <li class="wow zoomIn">
-                <a href="#" class="a">
+                <a href="{{ route('service') }}" class="a">
                     <div class="img fullbody"><img src="{{ config('app.url') }}/assets/images/facility.jpeg" alt="">
                     </div>
                     <div class="text fullbody">
@@ -367,7 +404,7 @@
                 </a>
             </li>
             <li class="wow zoomIn">
-                <a href="#" class="a">
+                <a href="{{ route('service') }}" class="a">
                     <div class="img fullbody"><img src="{{ config('app.url') }}/assets/images/cctv.jpeg" alt=""></div>
                     <div class="text fullbody">
                         <h4 class="fullbody"><span>Services</span> CCTV Security</h4>
@@ -380,7 +417,7 @@
                 </a>
             </li>
             <li class="wow zoomIn">
-                <a href="#" class="a">
+                <a href="{{ route('service') }}" class="a">
                     <div class="img fullbody"><img src="{{ config('app.url') }}/assets/images/cinema.jpeg" alt=""></div>
                     <div class="text fullbody">
                         <h4 class="fullbody"><span>Services</span> Third-Party Out Sourcing</h4>
@@ -393,7 +430,7 @@
                 </a>
             </li>
             <li class="wow zoomIn">
-                <a href="#" class="a">
+                <a href="{{ route('service') }}" class="a">
                     <div class="img fullbody"><img
                             src="{{ config('app.url') }}/assets/images/abe3ccb654cff8fff1e1a735e052ecd5.jpg" alt="">
                     </div>

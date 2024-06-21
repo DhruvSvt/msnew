@@ -170,7 +170,7 @@ label {
 
 .icons:hover,
 .icons:hover:before {
-    background: #000000;
+    background: #9d1281;
 }
 
 .icons a.micon {
@@ -1420,7 +1420,6 @@ footer {
     padding: 20px;
     background-color: #fff;
     margin-bottom: 30px;
-    min-height: 520px;
 }
 
 .adbxin h2 {

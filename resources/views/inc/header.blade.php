@@ -1,7 +1,7 @@
 <div class="fullbody header">
     <div class="fullpage">
         <div class="logo">
-            <a href="index.html">
+            <a href="{{ route('home') }}">
                 <img src="{{ config('app.url') }}/assets/images/mslogo1.png" alt="Logo">
             </a>
         </div>
@@ -24,12 +24,11 @@
             <ul id="mainMenu">
                 <li><a href="{{ route('home') }}">Home</a></li>
                 <li><a href="{{ route('about') }}">About Us</a></li>
-                <li><a href="javascript:void(0);">What We Do</a></li>
-                <li><a href="#">Industries</a></li>
-                <li><a href="#">Training</a></li>
-                <li><a href="javascript:void(0);">Gallery </a></li>
-                <li><a href="javascript:void(0);">Clients </a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="{{ route('service') }}">Services</a></li>
+                <li><a href="{{ route('certifications') }}">Certifications</a></li>
+                {{-- <li><a href="{{ route('gallery') }}">Gallery </a></li> --}}
+                <li><a href="{{ route('carrier') }}">Carrier</a></li>
+                <li><a href="{{ route('contact') }}">Contact</a></li>
             </ul>
         </div>
     </div>
