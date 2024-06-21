@@ -182,7 +182,7 @@
         </div>
     </div>
 </div>
-<div class="fullbody aboutLinks" style="background-image: url(images/banner3.png);">
+<div class="fullbody aboutLinks" style="background-image: url(assets/images/banner3.png);">
     <ul class="fullbody" id="aboutLinks">
         <li rel="2176d0efddeac65a776fa9a41ea52890.jpg">
             <div class="content wow zoomIn">
