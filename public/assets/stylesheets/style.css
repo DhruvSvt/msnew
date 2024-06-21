@@ -492,25 +492,15 @@ label {
     margin-top: 20px;
 }*/
 .bannerTxt a {
-    float: left;
     color: #fff;
-    /*margin-top: 20px;*/
-    font-size: 13px;
-    text-transform: uppercase;
-    font-weight: 500;
-    background: #000000;
-    border-radius: 50px;
-    position: relative;
-    overflow: hidden;
-    padding: 15px 30px;
-    text-decoration: none;
-    transition: all ease-in-out .5s;
-    -webkit-transition: all ease-in-out .5s;
+
 }
 
 .bannerTxt a:hover {
     text-decoration: none;
+    transition-duration: 0.4s;
     background: #901d78;
+
 }
 
 /* .bannerTxt a span {

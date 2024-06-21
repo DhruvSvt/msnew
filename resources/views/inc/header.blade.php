@@ -22,8 +22,8 @@
         </div>
         <div class="mainMenu">
             <ul id="mainMenu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="javascript:void(0);">Who We are</a></li>
+                <li><a href="{{ route('home') }}">Home</a></li>
+                <li><a href="{{ route('about') }}">About Us</a></li>
                 <li><a href="javascript:void(0);">What We Do</a></li>
                 <li><a href="#">Industries</a></li>
                 <li><a href="#">Training</a></li>

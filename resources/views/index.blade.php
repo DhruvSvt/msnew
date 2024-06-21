@@ -1,4 +1,14 @@
 @extends('layouts.app')
+@section('head')
+<style>
+    .clients img {
+        height: 91px;
+        width: 100% !important;
+        object-fit: contain;
+
+    }
+</style>
+@endsection
 @section('content')
 <div class="fullbody mtop"></div>
 <div class="fullbody homebanner">
@@ -131,7 +141,7 @@
                     Delhi NCR.
                 </p>
             </div>
-            <a href="#" class="regButton">Learn more <span></span></a>
+            <a href="{{ route('about') }}" class="regButton">Learn more <span></span></a>
         </div>
     </div>
 </div>
