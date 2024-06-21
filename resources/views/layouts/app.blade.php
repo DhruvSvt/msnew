@@ -7,7 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="theme-color" content="#901d78">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ config('app.url') }}/assets/images/mslogo1.png">
     <link rel="canonical" href="#" />
     <meta name="description"
         content="M.S Security is the best security guard service agency in India. Hire a trained security services guard for your business, event or personal protection. We supply security solutions in Agra, Delhi, Mathura, Lucknow, Ghaziabad, Kanpur, Varanasi, Gorakhpur." />
