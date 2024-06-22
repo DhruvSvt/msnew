@@ -171,7 +171,7 @@
                 </div>
                 <div class="col-sm-8">
                     <p>For any Feedback / Suggestions / Complaints, you may reach out to customer relations team at
-                        service@ms.services98@gmail.com</p>
+                        <a href="mailto:ms.services98@gmail.com">ms.services98@gmail.com</a></p>
                 </div>
             </div>
         </div>

@@ -6,11 +6,11 @@
             </a>
         </div>
         <div class="icons">
-            <a href="#" target="_blank" title="Download Brochure" class="pdfIcon">
+            <a href="tel:+918899927801" target="_blank" title="Download Brochure" class="pdfIcon">
                 <i class="fa fa-phone"></i>
                 <!-- <img src="images/download.svg" width="24px;" alt=""> -->
             </a>
-            <a href="#" title="Request Estimate" class="cntIcon">
+            <a href="mailto:ms.services98@gmail.com" title="Request Estimate" class="cntIcon">
                 <!-- <i class="fa fa-envelope-o"></i> -->
                 <svg xmlns="#" width="24" height="17" viewBox="0 0 32 23" class="svg_icon svg_mail">
                     <path fill="#ffffff"
