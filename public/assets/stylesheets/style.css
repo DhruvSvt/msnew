@@ -475,7 +475,7 @@ label {
     margin-bottom: 20px;
     background-color: rgb(0 0 0 / 26%);
     padding: 8px;
-    margin-top: 11rem;
+    margin-top: 11rem !important;
 }
 
 .bannerTxt h3 span,
