@@ -168,12 +168,6 @@
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a href="{{ config('app.url') }}/assets/images/c8.jpg" class="fancybox" rel="ligthbox" target="_blank">
-                    <img src="{{ config('app.url') }}/assets/images/c8.jpg" class="zoom img-fluid "
-                        style="border:1px solid darkgrey;margin-bottom:10px;" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a href="{{ config('app.url') }}/assets/images/c9.jpg" class="fancybox" rel="ligthbox" target="_blank">
                     <img src="{{ config('app.url') }}/assets/images/c9.jpg" class="zoom img-fluid "
                         style="border:1px solid darkgrey;margin-bottom:10px;" alt="">
