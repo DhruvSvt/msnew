@@ -156,17 +156,15 @@
         <div class="fullpage">
             <div class="">
                 <div class="col-sm-6 pull-left">
-                    <p>The chart illustrates an impressive growth trajectory for the company over the past decade,
-                        highlighting a significant
-                        increase in profits. Starting from a modest 8.93 lac in 2011-12, the company's revenue has soared to
-                        an outstanding
-                        2530.40 lac in 2020-21. This remarkable growth underscores the company's strategic vision, effective
-                        management, and
-                        dedication to excellence. Each year has seen consistent progress, reflecting the company's ability
-                        to adapt, innovate,
-                        and meet market demands. The substantial rise in profits is a testament to the hard work and
-                        commitment of the entire
-                        team, setting a solid foundation for continued success in the future.
+                    <p>Welcome to M.S. Services, (PSARA approved) your premier destination for comprehensive manpower management solutions.
+                    Founded by Nisha Shukla in 2008 as a proprietorship firm and rebranded in 2011, M.S. Services has evolved into a trusted
+                    partnership firm. Our commitment to excellence is underscored by our ISO 9001:2008 certification, achieved on October
+                    22, 2012, reflecting our dedication to the highest standards in the industry. We specialize in a wide range of services,
+                    including manpower recruitment, housekeeping, hospitality, catering, gardening, environmental solutions, event
+                    management, landscaping, and allied services. Headquartered in Agra, we have expanded our presence with numerous
+                    regional offices and branches, serving clients in Rajasthan, Gujarat, Maharashtra, Uttarakhand, Punjab, Haryana, Madhya
+                    Pradesh, and the Delhi NCR region. With a team of experienced professionals devoted to delivering personalized and
+                    reliable solutions, M.S. Services is committed to meeting your unique needs and helping you achieve your goals.
                     </p>
                 </div>
                 <div class="col-sm-5 pull-right">
