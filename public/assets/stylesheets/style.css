@@ -453,7 +453,7 @@ label {
     position: absolute;
     top: 60%;
     left: 7%;
-    width: 50%;
+    width: 41%;
     z-index: 2;
     text-align: left;
     color: #fff;
@@ -470,12 +470,12 @@ label {
 .bannerTxt h3,
 .bannerTxt h1 {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 23px;
     text-transform: uppercase;
     margin-bottom: 20px;
-    background-color: rgb(0 0 0 / 47%);
-    padding: 10px;
-    margin-top: 30px;
+    background-color: rgb(0 0 0 / 26%);
+    padding: 8px;
+    margin-top: 11rem;
 }
 
 .bannerTxt h3 span,
